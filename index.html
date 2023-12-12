@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="quotes mx-5 py-5 vh-100 text-center">
+      <div class="container">
+        <h1 class="display-5 text-capitalize">Quote of the Day</h1>
+        <p class="direct lead py-4">
+          Press the button below to receive a random quote!
+        </p>
+
+        <button onclick="generateQuote();" class="btn btn-outline-info">
+          New Quote
+        </button>
+        <p class="p-first mt-5 pt-4" id="quoteOutput"></p>
+        <p class="p-second pt-2" id="authorOutput"></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

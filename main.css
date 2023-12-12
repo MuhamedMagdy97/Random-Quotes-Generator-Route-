@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(wallpaperflare.com_wallpaper.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quotes h1 {
+  color: #f26430;
+  font-family: "Qwigley", cursive;
+  font-size: 100px;
+  font-style: oblique;
+  letter-spacing: 15px;
+}
+.quotes .direct {
+  color: #f28729;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.quotes .p-first {
+  color: #bf5349;
+  font-size: 50px;
+  font-family: "Lobster", sans-serif;
+}
+
+.quotes .p-second {
+  color: #f28729;
+  font-size: 30px;
+  font-family: "Qwigley", cursive;
+}
+
+.quotes .btn-outline-info {
+  --bs-btn-color: #f28729;
+  --bs-btn-border-color: #bf5349;
+  --bs-btn-hover-color: #232659;
+  --bs-btn-hover-bg: #f28729;
+  --bs-btn-hover-border-color: #bf5349;
+  --bs-btn-focus-shadow-rgb: 13, 202, 240;
+  --bs-btn-active-color: #232659;
+  --bs-btn-active-bg: #bf5349;
+  --bs-btn-active-border-color: #f28729;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f28729;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f28729;
+  --bs-gradient: none;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
